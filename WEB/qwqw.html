@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LIONEL Business Group</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: rgb(224, 180, 180);
+      color: rgb(245, 160, 160);
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      padding: 20px;
+    }
+
+    .MARQUEE-text {
+      font-size: 1.5rem;
+      font-weight: bold;
+      color: rgb(90, 67, 67);
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+    }
+
+    /* Slideshow Section */
+    .slideshow-container {
+      position: relative;
+      max-width: 100%;
+      margin: auto;
+      overflow: hidden;
+      height: 400px;
+      background-color: #000;
+    }
+
+    .mySlides {
+      display: none;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center;
+    }
+
+    /* Navigation Dots */
+    .dot-container {
+      text-align: center;
+      position: relative;
+      top: 360px;
+    }
+
+    .dot {
+      height: 15px;
+      width: 15px;
+      margin: 0 5px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      cursor: pointer;
+    }
+
+    .dot.active {
+      background-color: #717171;
+    }
+
+    /* Video Section Styling */
+    .video-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+      background: rgb(65, 38, 49);
+    }
+
+    .video-container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      padding: 10px 0;
+      width: 80%;
+      margin: auto;
+    }
+
+    .video-wrapper {
+      text-align: center;
+    }
+
+    video {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+      border: 2px solid rgb(122, 29, 29);
+    }
+
+    h3 {
+      margin: 10px 0;
+      color: white;
+      font-size: 1.2rem;
+    }
+
+    /* About, Services, and Contact Sections */
+    section {
+      padding: 20px;
+      margin: 20px;
+      background: #f4f4f4;
+      border-radius: 8px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: rgb(90, 67, 67);
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #232b0d;
+      color: rgba(128, 206, 209, 0.9);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <marquee class="MARQUEE-text">Welcome to Lionel Online Web Portal</marquee>
+  </header>
+
+  <!-- Slideshow Section -->
+  <div class="slideshow-container">
+    <div class="mySlides" style="background-image: url('file:///E:/WEB/all-are-welcome-here-sign-3i20mi780hciy3f9.jpg');"></div>
+    <div class="mySlides" style="background-image: url('file:///E:/WEB/futuristic-software-development-concept-qcb8jmsrfwt04l91.jpg');"></div>
+    <div class="mySlides" style="background-image: url('file:///E:/WEB/hacking-hacker-3d-32jkyhu3wzhrce8l.jpg');"></div>
+    <div class="dot-container">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+  </div>
+
+  <!-- Video Section -->
+  <section class="video-section">
+    <h2>Video Gallery</h2>
+    <p>Explore our featured videos below:</p>
+
+    <p><b>tamba by zeo trap</b> </p>
+    
+   
+
+    <div class="video-container">
+      <!-- First Video -->
+      <div class="video-wrapper">
+        <video controls autoplay loop>
+          <source src="file:///E:/WEB/TAMBA%20BY%20ZEOTRAP%20[Official%20Video]%202024.mp4" type="video/mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <p><b></b>bwebwe remix by the fist ,juno ,buda, Green P</b> </p>
+
+      <!-- Second Video -->
+      <div class="video-wrapper">
+        <video controls autoplay loop>
+          <source src="file:///E:/WEB/Bruce%20The%201st-Bwe%20Bwe%20Bwe(Remix)%20Kivumbi%20King,P-Fla,Juno%20Kizigenza,Green%20P,Bushali,B-Threy,K8%20Kavuyo.mp4" type="video/mp4" type="video/mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+     
+        <p><b> by kivumbi king ft  axon</b></p>
+
+      <!-- Third Video -->
+        <div class="video-wrapper">
+      <video controls autoplay loop>
+        <source src="file:///E:/WEB/Kivumbi%20King%20-%20Wait%20ft%20Axon%20(Visualizer).mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+      
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>If you have any questions or would like to get in touch, feel free to reach out to us:</p>
+    <p><strong>Phone:</strong> <a href="tel:0791566874">0791566874</a></p>
+    <p><strong>Email:</strong> <a href="mailto:hhirwaa@gmail.com">hhirwaa@gmail.com</a></p>
+    <p><strong>Follow us on:</strong></p>
+    <p>
+      <a href="https://facebook.com/it.lionel" target="_blank">Facebook</a> |
+      <a href="https://instagram.com/it.lionel" target="_blank">Instagram</a>
+    </p>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Lionel Business Portrait. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    let slideIndex = 0;
+
+    function showSlides() {
+      let slides = document.getElementsByClassName("mySlides");
+      let dots = document.getElementsByClassName("dot");
+      for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex > slides.length) { slideIndex = 1; }
+      for (let i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex - 1].style.display = "block";
+      dots[slideIndex - 1].className += " active";
+      setTimeout(showSlides, 3000); // Change slide every 3 seconds
+    }
+
+    function currentSlide(n) {
+      slideIndex = n - 1;
+      showSlides();
+    }
+
+    // Start the slideshow
+    showSlides();
+  </script>
+
+</body>
+</html>
